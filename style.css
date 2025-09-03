@@ -8,16 +8,11 @@ h1 {
     font-variant: normal;
     text-align: center;
 }
-p {
-    line-height: 30px;
-    color: rgb(14, 17, 13);
-    text-align: justify;
-}
 a {
     text-decoration: none;
     border: 1px solid black;
     color: black;
-    padding: 3px 5px;
+    padding: 2px 4px;
     border-radius: 5px;
     background-color: burlywood;
 }
@@ -27,16 +22,22 @@ a:hover {
 }
 .profile {
     border: 2px solid black;
+    border-radius: 8px;
     padding: 10px;
     margin: 10px;
     background-color: rgb(255, 205, 140);
-    ;
 }
+.profile hr {
+    color: black;
+    margin-top: 10px;
+    border: 0.5px solid black;
+    }
 
 .profile ul {
     position: relative;
     list-style: none;
     display: grid;
+    grid-template-columns: 3fr 2fr;
 }
 .profile ul li  {
     color: rgb(5, 5, 7);
@@ -48,6 +49,9 @@ a:hover {
 }
 .profile .bold {
     font-weight: 600;
+}
+.profile .value {
+    font-size: 23px;
 }
 
 .container {
@@ -61,7 +65,10 @@ a:hover {
     text-transform: uppercase;
 }
 .container p {
-    padding: 5px;
+    padding: 0 15px;
+    line-height: 30px;
+    color: rgb(14, 17, 13);
+    text-align: justify;
 }
 
 .link {
